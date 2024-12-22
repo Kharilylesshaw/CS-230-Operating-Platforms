@@ -1,4 +1,4 @@
-# Analysis & Design of "Draw It" or "Lose It" for "The Gaming Room" Client
+# Analysis & Design of "Draw It or Lose It" for The Gaming Room" Client
 
 ## Summary of The Gaming Room Client and Software Requirements
 
