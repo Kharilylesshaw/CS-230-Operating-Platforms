@@ -1,4 +1,4 @@
-# Analysis & Design of "Draw It or Lose It" for a client of Creative Technology Solutions
+# System Analysis & Design of "Draw It or Lose It" for a client of Creative Technology Solutions
 
 ## Summary of The Gaming Room Client and Software Requirements
 
