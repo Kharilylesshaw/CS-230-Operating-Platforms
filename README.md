@@ -2,22 +2,25 @@
 
 ## Summary of The Gaming Room Client and Software Requirements
 
-The Gaming Room, a client of Creative Technology Solutions (CTS), requested the development of a web-based version of their popular game, "Draw It or Lose It." This game is inspired by the 1980s television game show "Win, Lose or Draw," where teams compete to guess what is being drawn before time runs out. For the web-based version, the game must render images from a stock library of clues and allow players to participate in real time across multiple platforms.
+The Gaming Room, a client of Creative Technology Solutions (CTS), requested the development of a web-based version of their popular game, "Draw It or Lose It." This game is inspired by the 1980s television show "Win, Lose or Draw" and requires teams to compete by guessing clues from drawn images. The software needed to support real-time interaction, scalability for a large user base, and cross-platform compatibility across web and mobile environments. Additionally, the system had to ensure secure access, reliable performance, and efficient management of game sessions, players, and teams.
 
-## Reflection on the Documentation Process
+## Strengths in Developing the Documentation
 
-One aspect of the documentation process I excelled at was organizing the client’s requirements into clear, actionable components. By identifying their technical and business needs early on, I could design a solution that aligned with their goals. The use of diagrams and structured sections helped me ensure the design was both comprehensive and accessible.
+One of the strengths in developing the software design document was the ability to clearly organize the client’s requirements into actionable sections, ensuring that all aspects of the system’s architecture, functionality, and constraints were addressed. The use of diagrams, such as UML class and activity diagrams, helped visualize the relationships between system components and the user workflows, making the design accessible to both technical and nontechnical stakeholders. This structured approach ensured alignment with the client’s goals and clarified the implementation plan.
 
-Working through the design document was particularly helpful for understanding the system’s architecture before writing any code. It allowed me to identify potential challenges, such as implementing cross-platform compatibility or ensuring scalability, and address them proactively. This process provided a roadmap that made coding more structured and efficient.
+## Insights from the Design Document Process
 
-If I were to revise one part of the documentation, it would be the evaluation of operating platforms. While my analysis was thorough, I could improve it by including more specific examples of tools and frameworks that would support the client’s needs. For instance, discussing containerization tools like Docker or orchestration platforms like Kubernetes could add depth to the recommendations.
+Working through the design document highlighted the importance of identifying potential challenges early in the process, such as ensuring real-time synchronization across distributed environments. This foresight proved valuable when transitioning to coding, as it provided a clear roadmap and reduced uncertainties during development. The process also emphasized the value of balancing technical details with user-friendly language, making it easier to communicate the design to all involved parties.
+
+## Areas for Improvement
+
+If I were to revise one aspect of the documentation, it would be the technical recommendations section. Including more specific examples of tools, such as containerization platforms like Docker or orchestration tools like Kubernetes, would strengthen the case for scalability and reliability. Additionally, elaborating on potential cost implications of different architectural choices could provide the client with a more comprehensive view of the long-term feasibility of the design.
 
 ## Interpreting and Implementing User Needs
 
-To interpret the user’s needs, I analyzed their requirements for real-time interaction, scalability, and cross-platform functionality. These needs were then integrated into the design by recommending a Linux-based operating platform with microservices architecture and cloud storage. User-centric design principles ensured the system was accessible, secure, and able to handle multiple concurrent sessions.
-
-Considering user needs is critical when designing software because it directly impacts usability and user satisfaction. A well-designed system that meets the client’s expectations fosters trust and ensures long-term success for both the client and their users.
+Interpreting user needs was central to the design process. By analyzing the requirements for real-time gameplay, scalability, and ease of use, the design incorporated features like a cloud-based storage system, RESTful APIs, and microservices architecture. These choices ensured that the system met performance expectations and provided a seamless user experience. Considering user needs is critical because it ensures the system remains functional, practical, and aligned with the client’s vision, ultimately fostering trust and satisfaction.
 
 ## Approach to Software Design
 
-In designing the software, I adopted a modular approach, breaking the system into manageable components like storage, memory management, and security. By addressing each part separately, I ensured that the overall design was cohesive and adaptable. In the future, I would continue to use techniques like user flow diagrams and wireframes to visualize the system early in the process. Additionally, incorporating more iterative feedback loops with the client could help refine the design and better align it with their evolving needs.
+The software design process relied on a modular approach, breaking the system into manageable components such as user management, game session handling, and security. This approach made it easier to design, test, and integrate each part while maintaining a cohesive overall system. In future projects, I would continue to employ techniques like user story mapping and iterative feedback loops to refine the design further. Using tools such as wireframes and prototypes earlier in the process would also help ensure that the final system aligns closely with client expectations and user needs.
+
